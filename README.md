@@ -211,7 +211,7 @@ class MainActivity : AppCompatActivity() {
 <a id="c"></a>
 #### 3.效果展示
 
-<a href="https://badgameshow.com/fly/wp-content/uploads/2021/07/Screenrecorder-2021-07-19-17-40-32-684.gif"><img src="https://badgameshow.com/fly/wp-content/uploads/2021/07/Screenrecorder-2021-07-19-17-40-32-684.gif" width="50%"/></a>
+<a href="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif"><img src="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif" width="50%"/></a>
 
 <a id="d"></a>
 #### 4.Github
