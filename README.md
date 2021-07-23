@@ -211,7 +211,7 @@ class MainActivity : AppCompatActivity() {
 <a id="c"></a>
 #### 3.效果展示
 
-<a href="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif"><img src="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif" width="50%"/></a>
+<a href="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif"><img src="https://github.com/MuHongWeiWei/SignatureView/blob/master/app/src/main/res/drawable/demo.gif" width="30%"/></a>
 
 <a id="d"></a>
 #### 4.Github
