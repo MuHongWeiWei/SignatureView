@@ -1,21 +1,22 @@
-<h1>Android 小畫家 簽名 畫板</h1>
+# Android 手寫簽名 畫板
 
+##### Android 手寫簽名 畫板，在自定義View中，手寫簽名使用Canvas的相應操作，實現類似手寫簽名的畫板，正常的Canvas操作可以用畫板對手機的滑動進行繪製，手寫簽名讓你達到許多方便性，幫助您完成各種手寫簽名。
+
+---
+
+#### 文章目錄
 <ol>
-  <li><a href="https://badgameshow.com/fly/android-小畫家-簽名-畫板/fly/android/#a">創建SignatureView</a></li>
-  <li><a href="https://badgameshow.com/fly/android-小畫家-簽名-畫板/fly/android/#b">方法調用&布局</a></li>
-  <li><a href="https://badgameshow.com/fly/android-小畫家-簽名-畫板/fly/android/#c">效果展示</a></li>
- <li><a href="https://badgameshow.com/fly/android-小畫家-簽名-畫板/fly/android/#d">Github</a></li>
-
+    <li><a href="#a">創建SignatureView</a></li>
+    <li><a href="#b">方法調用&布局</a></li>
+    <li><a href="#c">效果展示</a></li>
+    <li><a href="#d">Github</a></li>
 </ol>
 
-<hr />
+---
 
 <a id="a"></a>
-
-<h3>1.創建SignatureView</h3>
-
-<pre><code class="language-Kotlin line-numbers">package com.example.signatureview
-
+#### 1.創建SignatureView
+```Kotlin
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
@@ -130,14 +131,11 @@ class SignatureView(context: Context?, attrs: AttributeSet?) : View(context, att
         mBitmapCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR)
     }
 }
-</code></pre>
+```
 
 <a id="b"></a>
-
-<h3>2.方法調用&布局</h3>
-
-#### Layout
-
+#### 2.方法調用&布局
+##### Layout
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -183,10 +181,8 @@ class SignatureView(context: Context?, attrs: AttributeSet?) : View(context, att
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-#### 調用
-
-<pre><code class="language-Kotlin line-numbers">package com.example.signatureview
-
+##### 調用
+```Kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -210,12 +206,14 @@ class MainActivity : AppCompatActivity() {
         signatureView.resetCanvas(this)
     }
 }
-</code></pre>
+```
 
-<h3>3.效果展示</h3>
+<a id="c"></a>
+#### 3.效果展示
 
-<img src="https://badgameshow.com/fly/wp-content/uploads/2021/07/Screenrecorder-2021-07-19-17-40-32-684.gif" width="30%">
+<a href="https://badgameshow.com/fly/wp-content/uploads/2021/07/Screenrecorder-2021-07-19-17-40-32-684.gif"><img src="https://badgameshow.com/fly/wp-content/uploads/2021/07/Screenrecorder-2021-07-19-17-40-32-684.gif" width="50%"/></a>
 
-<h4>4.Github</h4>
+<a id="d"></a>
+#### 4.Github
 
-<a class="wp-editor-md-post-content-link" href="https://github.com/MuHongWeiWei/SignatureView">Github</a>
+<a href="https://github.com/MuHongWeiWei/SignatureView">Github</a>
